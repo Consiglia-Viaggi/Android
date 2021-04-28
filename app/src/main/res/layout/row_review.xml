@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+        <LinearLayout
+            android:id="@+id/firstReviewHeader"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:weightSum="100"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/usernameReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="Username"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/starReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="STAR"
+                android:textAlignment="textEnd"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/secondReviewHeader"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:weightSum="100"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/dateReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:text="DATE"
+                android:textAlignment="textEnd"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/titleReview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Titolo"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/descriptionReview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrizione"/>
+
+    </LinearLayout>
+</LinearLayout>

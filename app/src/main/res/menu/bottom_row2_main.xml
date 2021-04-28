@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_village"
+        android:enabled="true"
+        android:icon="@drawable/ic_village"
+        android:onClick="openVillage"
+        android:title="@string/ic_villaggio"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_bb"
+        android:enabled="true"
+        android:icon="@drawable/ic_bb"
+        android:onClick="openBB"
+        android:title="@string/ic_b_b"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_relax"
+        android:enabled="true"
+        android:icon="@drawable/ic_relax"
+        android:onClick="openRelax"
+        android:title="Relax"
+        app:showAsAction="ifRoom" />
+</menu>
